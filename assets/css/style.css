@@ -114,10 +114,11 @@ footer {
   position: static;
   width: 100%;
   clear: both;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 500px;
   color: #999;
   text-align: center;
-  background: #ffffff;
+  background: linear-gradient(to bottom right, #999, #c8c3c5);
   border-top: 1px solid #ccc;
 }
 
