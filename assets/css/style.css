@@ -165,7 +165,7 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #A9A9A9;
+  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
   border: 1px solid #ddd;
 }
 
@@ -252,7 +252,7 @@ button[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #000000;
+  background: linear-gradient(to bottom right, #C8C3C5, #000000);
   border: 0 none;
 }
 
