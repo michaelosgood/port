@@ -1,17 +1,17 @@
 
-/* General */
+/* General (global) */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   background: linear-gradient(to bottom right, #c8c3c5, #0093b7);
 }
 
-/* Logo on index.html */
+/* Logo (index.html) */
 #logo {
   margin-right: 100px;
   margin-left: 100px;
 }
 
-/* Side Navbar */
+/* Side Navbar (global) */
 .sidenav {
   height: 100%;
   width: 0;
@@ -24,22 +24,15 @@ body {
   transition: 0.5s;
   padding-top: 60px;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
 
-/* Main Image */
+
+/* Main Image (index.html)*/
 .main-image {
   width: 100%;
   height: 100%;
 }
 
-/* Side Navbar */
+/* Side Navbar (global) */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -49,10 +42,12 @@ body {
   transition: 0.3s;
 }
 
+/* Side Navbar (global) */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
+/* Side Navbar (global) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -61,6 +56,7 @@ body {
   margin-left: 50px;
 }
 
+/* Side Navbar (global) */
 #lines {
   font-size: 50px;
   cursor: pointer;
@@ -69,7 +65,7 @@ body {
   color: #d3d3d3;
 }
 
-/* footer */
+/* footer (about.html, portfolio.html, contact.html)*/
 footer {
   position: static;
   width: 100%;
@@ -82,7 +78,7 @@ footer {
   border-top: 1px solid #ccc;
 }
 
-/* sidebar */
+/* sidebar (about.html, portfolio.html, contact.html) */
 .sidebar {
   float: right;
   width: 100%;
@@ -93,32 +89,25 @@ footer {
   border: 1px solid #ddd;
 }
 
-h3,
-.sidebar h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eee;
-}
-
+/* sidebar (about.html, portfolio.html, contact.html) */
 .social {
   width: 62px;
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
 }
-
+/* sidebar (about.html, portfolio.html, contact.html) */
 .social:last-child {
   margin-right: 0;
 }
 
-/* main */
+/* main (about.html, portfolio.html, contact.html) */
 #main-container {
   padding-top: 5%;
   padding-left: 3%;
 }
 
-/* Main Section */
+/* Main Section (about.html, portfolio.html, contact.html) */
 .main-section {
   float: left;
   width: 100%;
@@ -129,7 +118,7 @@ h3,
   border: 1px solid #ddd;
 }
 
-/* projects on portfolio.html */
+/* projects (portfolio.html) */
 .work {
   position: relative;
   float: left;
@@ -158,7 +147,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #000000;
+  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
   border-bottom: 0;
 }
 
@@ -538,6 +527,15 @@ button[type=submit] {
   /* resume button on contact.html */
   .btn-custom {
     margin-left: 47%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
   }
 }
 
