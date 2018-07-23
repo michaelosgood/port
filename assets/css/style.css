@@ -5,35 +5,10 @@ body {
   background: linear-gradient(to bottom right, #c8c3c5, #0093b7);
 }
 
-/* Logo on Home Page */
+/* Logo on index.html */
 #logo {
   margin-right: 100px;
   margin-left: 100px;
-}
-
-h1, h2, h3, p {
-  margin-bottom: 20px;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-h1, h2, h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #d3d3d3;
-}
-
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
-}
-
-h2, h3 {
-  font-size: 22px;
 }
 
 /* Side Navbar */
