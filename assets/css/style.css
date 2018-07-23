@@ -1,4 +1,3 @@
-
 /* General (global) */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -24,7 +23,6 @@ body {
   transition: 0.5s;
   padding-top: 60px;
 }
-
 
 /* Main Image (index.html)*/
 .main-image {
@@ -87,6 +85,7 @@ footer {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* sidebar (about.html, portfolio.html, contact.html) */
@@ -116,6 +115,7 @@ footer {
   margin: 0 0 40px;
   background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* projects (portfolio.html) */
@@ -201,22 +201,14 @@ textarea {
 }
 
 /* contact form (contact.html) */
-button[type=submit] {
+.btn, button {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: linear-gradient(to bottom right, #C8C3C5, #000000);
+  background: #0093b7;
   border: 0 none;
-}
-
- /* resume button (contact.html) */
-.btn-custom {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #000000;
+  border-radius: 5px;
 }
 
 /* ---------Beginning of Media Queries--------------*/
@@ -345,10 +337,6 @@ button[type=submit] {
     text-align: center;
   }
 
-  /* resume button (contact.html) */
- .btn-custom{
-   margin-left: 75%;
- }
 
   /* projects (portfolio.html) */
   .work {
@@ -360,24 +348,6 @@ button[type=submit] {
     position: static;
     bottom:0;
     width:100%;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .btn-custom {
-    margin-left: 80%;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .btn-custom {
-    margin-left: 82%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .btn-custom {
-    margin-left: 90%;
   }
 }
 
@@ -409,10 +379,6 @@ button[type=submit] {
     max-width: 100%;
     text-align: center;
   }
-
-  .btn-custom {
-    margin-left: 65%;
-  }
   
   /* (about.html, portfolio.html, contact.html) */
   #connect {
@@ -441,19 +407,6 @@ button[type=submit] {
   }
 }
 
-@media screen and (max-width: 680px) {
-  .btn-custom {
-    margin-left: 53%;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .btn-custom {
-    margin-left: 54%;
-  }
-}
-
-
 @media screen and (max-width:640px) {
   /* (about.html, portfolio.html, contact.html) */
   #main-container {
@@ -470,11 +423,6 @@ button[type=submit] {
     float:left;
     max-width:100%;
     text-align: center;
-  }
-
-  /* resume button (contact.html) */
-  .btn-custom {
-    margin-left: 57%;
   }
   
   .auth-image {
@@ -499,35 +447,6 @@ button[type=submit] {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .btn-custom {
-    margin-left: 50%;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .btn-custom {
-    margin-left: 45%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .btn-custom {
-    margin-left: 40%;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  .btn-custom {
-    margin-left: 35%;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .btn-custom {
-    margin-left: 25%;
-  }
-}
 
 @media screen and (max-width: 450px) {
   /* (global) */
@@ -554,10 +473,6 @@ button[type=submit] {
     height: auto;
   }
 
-  /* resume button (contact.html) */
-  .btn-custom {
-    margin-left: 47%;
-  }
   /* Logo (index.html) */
   #logo {
   margin-top: 50px;
@@ -572,21 +487,5 @@ button[type=submit] {
   /* (global) */
   .sidenav a {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-
-  /* resume button (contact.html) */
-  .btn-custom {
-    margin-left: 43%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-
-  /* resume button (contact.html) */
-  .btn-custom {
-    margin-left: 39%;
   }
 }
