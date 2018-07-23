@@ -210,7 +210,7 @@ button[type=submit] {
   border: 0 none;
 }
 
- /* resume button on contact.html */
+ /* resume button (contact.html) */
 .btn-custom {
   padding: 10px 30px;
   font-size: 18px;
@@ -235,7 +235,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /* projects on portfolio.html */
+  /* projects (portfolio.html) */
   .work {
     width:100%;
   }
@@ -262,7 +262,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /* projects on portfolio.html */
+  /* projects (portfolio.html) */
   .work {
     width:100%;
   }
@@ -278,18 +278,32 @@ button[type=submit] {
   * {
   box-sizing: border-box;
   }
-
-  .main-section {
-    max-width:60%;
+  #main-container {
+    position:relative;
+    max-width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
+  .main-section {
+    width: 100%;
+    float:left;
+    max-width:100%;
+    text-align: center;
+  }
   .auth-image {
     width:50%;
     margin-right: 5%;
     margin-left: 5%;
   }
+  .sidebar {
+    width: 100%;
+    float:left;
+    max-width:100%;
+    text-align: center;
+  }
 
-  /* projects on portfolio.html */
+  /* projects (portfolio.html) */
   .work {
     width:100%;
   }
@@ -331,12 +345,12 @@ button[type=submit] {
     text-align: center;
   }
 
-  /* resume button on contact.html */
+  /* resume button (contact.html) */
  .btn-custom{
    margin-left: 75%;
  }
 
-  /* projects on portfolio.html */
+  /* projects (portfolio.html) */
   .work {
     width:100%;
   }
@@ -369,6 +383,7 @@ button[type=submit] {
 
 
 @media screen and (max-width:768px) {
+  /* (about.html, portfolio.html, contact.html) */
   #main-container {
     position: static;
     max-width: 90%;
@@ -377,14 +392,17 @@ button[type=submit] {
     margin-left:auto;
     margin-right:auto;
   }
+  /* (about.html, portfolio.html, contact.html) */
   .main-section {
     max-width: 100%;
   }
-
+ 
+  /* (about.html, portfolio.html, contact.html) */
   .container {
     width: 100%;
   }
 
+  /* (about.html, portfolio.html, contact.html) */
   .sidebar {
     width: 100%;
     float:left;
@@ -396,17 +414,19 @@ button[type=submit] {
     margin-left: 65%;
   }
   
+  /* (about.html, portfolio.html, contact.html) */
   #connect {
     position:static;
     width: 100%;
     max-width: 960px;
   }
 
+  /* (about.html, portfolio.html, contact.html) */
   footer {
     bottom: 0;
     width: 100%;
   }
-  /* Portfolio */
+  /* (portfolio.html) */
   .work {
     width: 80%;
     left: 10%;
@@ -435,6 +455,7 @@ button[type=submit] {
 
 
 @media screen and (max-width:640px) {
+  /* (about.html, portfolio.html, contact.html) */
   #main-container {
     position: static;
     padding-top: 5%;
@@ -443,7 +464,7 @@ button[type=submit] {
     text-align: left;
     font-size: 15px;
   }
-
+  /* (about.html, portfolio.html, contact.html) */
   .sidebar {
     width: 100%;
     float:left;
@@ -451,7 +472,7 @@ button[type=submit] {
     text-align: center;
   }
 
-  /* resume button on contact.html */
+  /* resume button (contact.html) */
   .btn-custom {
     margin-left: 57%;
   }
@@ -460,12 +481,12 @@ button[type=submit] {
     width:95%;
   }
 
-/* Footer */
+/* Footer (about.html, portfolio.html, contact.html) */
     footer {
     position: static;
   }
  
-  /* Portfolio */
+  /* (portfolio .html)*/
   .work {
     width: 96%;
     left: 2%;
@@ -509,36 +530,46 @@ button[type=submit] {
 }
 
 @media screen and (max-width: 450px) {
+  /* (global) */
   body {
     margin: -4% !important;
   }
   
+  /* (about.html, portfolio.html, contact.html) */
   #main-container {
     max-width: 100%;
     text-align: left;
     margin-left: 0;
     margin-right: 0;
   }
+
+  /* (about.html, portfolio.html, contact.html) */   
   .main-section {
     max-width: 100%;
     padding: 15px;
   }
 
-  /* project on portfolio.html */
+  /* projects (portfolio.html) */
   .work {
     height: auto;
   }
 
-  /* resume button on contact.html */
+  /* resume button (contact.html) */
   .btn-custom {
     margin-left: 47%;
+  }
+  /* Logo (index.html) */
+  #logo {
+  margin-top: 50px;
   }
 }
 
 @media screen and (max-height: 450px) {
+  /* (global) */
   .sidenav {
     padding-top: 15px;
   }
+  /* (global) */
   .sidenav a {
     font-size: 18px;
   }
@@ -546,7 +577,7 @@ button[type=submit] {
 
 @media screen and (max-width: 425px) {
 
-  /* resume button on contact.html */
+  /* resume button (contact.html) */
   .btn-custom {
     margin-left: 43%;
   }
@@ -554,7 +585,7 @@ button[type=submit] {
 
 @media screen and (max-width: 400px) {
 
-  /* resume button on contact.html */
+  /* resume button (contact.html) */
   .btn-custom {
     margin-left: 39%;
   }
