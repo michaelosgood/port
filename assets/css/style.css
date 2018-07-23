@@ -151,7 +151,7 @@ footer {
   border-bottom: 0;
 }
 
-/* Picture on about.html */
+/* Picture (about.html) */
 .auth-image {
   float: left;
   width: 200px;
@@ -160,21 +160,23 @@ footer {
   margin-right: 25px;
 }
 
-/* Paragraph on about.html */
+/* Paragraph (about.html) */
 .wrapper{
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* contact form on contact.html */
+/* contact form (contact.html) */
 #contact-form ul {
   margin-bottom: 20px;
 }
 
+/* contact form (contact.html) */
 #contact-form li {
   margin-bottom: 10px;
 }
 
+/* contact form (contact.html) */
 label,
 input[type=text],
 input[type=email],
@@ -183,6 +185,7 @@ textarea {
   width: 100%;
 }
 
+/* contact form (contact.html) */
 input[type=text],
 input[type=email],
 textarea {
@@ -192,10 +195,12 @@ textarea {
   border: 1px solid #ddd;
 }
 
+/* contact form (contact.html) */
 textarea {
   height: 200px;
 }
 
+/* contact form (contact.html) */
 button[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
