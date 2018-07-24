@@ -119,39 +119,6 @@ footer {
   border-radius: 5px;
 }
 
-/* projects (portfolio.html) */
-.work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-  border-bottom: 0;
-}
-
 /* Picture (about.html) */
 .auth-image {
   float: left;
@@ -228,11 +195,6 @@ textarea {
     margin-left: 5%;
   }
 
-  /* projects (portfolio.html) */
-  .work {
-    width:100%;
-  }
-
   footer {
     padding: 90px 0;
     bottom:0;
@@ -253,11 +215,6 @@ textarea {
     width:50%;
     margin-right: 5%;
     margin-left: 5%;
-  }
-
-  /* projects (portfolio.html) */
-  .work {
-    width:100%;
   }
 
   footer {
@@ -296,11 +253,6 @@ textarea {
     text-align: center;
   }
 
-  /* projects (portfolio.html) */
-  .work {
-    width:100%;
-  }
-
   footer {
     padding: 38px 0;
     bottom:0;
@@ -336,12 +288,6 @@ textarea {
     float:left;
     max-width:100%;
     text-align: center;
-  }
-
-
-  /* projects (portfolio.html) */
-  .work {
-    width:100%;
   }
 
   /* Footer */
@@ -393,16 +339,7 @@ textarea {
     bottom: 0;
     width: 100%;
   }
-  /* (portfolio.html) */
-  .work {
-    width: 80%;
-    left: 10%;
-    padding: 0px;
-    margin-bottom: 3;
-    font-weight: 100;
-    line-height: 10px;
-    margin: 10px 0px 15px;
-  }
+
   .title {
     font-size: 15px !important;
   }
@@ -430,21 +367,9 @@ textarea {
     width:95%;
   }
 
-/* Footer (about.html, portfolio.html, contact.html) */
-    footer {
+  /* Footer (about.html, portfolio.html, contact.html) */
+  footer {
     position: static;
-  }
- 
-  /* (portfolio .html)*/
-  .work {
-    width: 96%;
-    left: 2%;
-    padding: 0px;
-    margin-bottom: 3;
-    font-weight: 100;
-    line-height: 10px;
-    margin: 10px 0px 15px;
-    background: transparent !important;
   }
 }
 
@@ -467,11 +392,6 @@ textarea {
   .main-section {
     max-width: 100%;
     padding: 15px;
-  }
-
-  /* projects (portfolio.html) */
-  .work {
-    height: auto;
   }
 
   /* Logo (index.html) */
