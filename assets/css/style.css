@@ -60,6 +60,9 @@ body {
   cursor: pointer;
   margin-left: 18px;
   position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   color: #d3d3d3;
 }
 
