@@ -183,7 +183,7 @@ textarea {
 }
 
 /* ---------Beginning of Media Queries--------------*/
-@media screen and (max-width:2000px) {
+/* @media screen and (max-width:2000px) {
   * {
   box-sizing: border-box;
   }
@@ -203,9 +203,9 @@ textarea {
     bottom:0;
     width:100%;
   }
-}
+} */
 
-@media screen and (max-width:1580px) {
+/* @media screen and (max-width:1580px) {
   * {
   box-sizing: border-box;
   }
@@ -225,9 +225,9 @@ textarea {
     bottom:0;
     width:100%;
   }
-}
+} */
 
-@media screen and (max-width:1280px) {
+/* @media screen and (max-width:1280px) {
   * {
   box-sizing: border-box;
   }
@@ -261,9 +261,9 @@ textarea {
     bottom:0;
     width:100%;
   }
-}
+} */
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   * {
   box-sizing: border-box;
   }
@@ -293,17 +293,15 @@ textarea {
     text-align: center;
   }
 
-  /* Footer */
   footer {
     position: static;
     bottom:0;
     width:100%;
   }
-}
+} */
 
-
-@media screen and (max-width:768px) {
-  /* (about.html, portfolio.html, contact.html) */
+/* (about.html, portfolio.html, contact.html) */
+/* @media screen and (max-width:768px) {
   #main-container {
     position: static;
     max-width: 90%;
@@ -312,17 +310,15 @@ textarea {
     margin-left:auto;
     margin-right:auto;
   }
-  /* (about.html, portfolio.html, contact.html) */
+  
   .main-section {
     max-width: 100%;
   }
  
-  /* (about.html, portfolio.html, contact.html) */
   .container {
     width: 100%;
   }
 
-  /* (about.html, portfolio.html, contact.html) */
   .sidebar {
     width: 100%;
     float:left;
@@ -330,14 +326,12 @@ textarea {
     text-align: center;
   }
   
-  /* (about.html, portfolio.html, contact.html) */
   #connect {
     position:static;
     width: 100%;
     max-width: 960px;
   }
 
-  /* (about.html, portfolio.html, contact.html) */
   footer {
     bottom: 0;
     width: 100%;
@@ -346,10 +340,10 @@ textarea {
   .title {
     font-size: 15px !important;
   }
-}
+} */
 
-@media screen and (max-width:640px) {
-  /* (about.html, portfolio.html, contact.html) */
+/* (about.html, portfolio.html, contact.html) */
+/* @media screen and (max-width:640px) {
   #main-container {
     position: static;
     padding-top: 5%;
@@ -358,7 +352,7 @@ textarea {
     text-align: left;
     font-size: 15px;
   }
-  /* (about.html, portfolio.html, contact.html) */
+  
   .sidebar {
     width: 100%;
     float:left;
@@ -370,20 +364,13 @@ textarea {
     width:95%;
   }
 
-  /* Footer (about.html, portfolio.html, contact.html) */
   footer {
     position: static;
   }
-}
+} */
 
 
-@media screen and (max-width: 450px) {
-  /* (global) */
-  body {
-    margin: -4% !important;
-  }
-  
-  /* (about.html, portfolio.html, contact.html) */
+/* @media screen and (max-width: 450px) {  
   #main-container {
     max-width: 100%;
     text-align: left;
@@ -391,25 +378,23 @@ textarea {
     margin-right: 0;
   }
 
-  /* (about.html, portfolio.html, contact.html) */   
   .main-section {
     max-width: 100%;
     padding: 15px;
   }
 
-  /* Logo (index.html) */
   #logo {
   margin-top: 50px;
   }
-}
+} */
 
-@media screen and (max-height: 450px) {
-  /* (global) */
+/* @media screen and (max-height: 450px) {
+
   .sidenav {
     padding-top: 15px;
   }
-  /* (global) */
+
   .sidenav a {
     font-size: 18px;
   }
-}
+} */
