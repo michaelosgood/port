@@ -1,7 +1,9 @@
 /* General (global) */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background: linear-gradient(to bottom right, #c8c3c5, #0093b7);
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2c3e50, #999999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2c3e50, #999999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Logo (index.html) */
