@@ -75,7 +75,7 @@ footer {
   color: #d3d3d3;
   text-align: center;
   background: linear-gradient(to bottom right, #999, #c8c3c5);
-  border-top: 1px solid #ccc;
+  border-top: 3px solid #ccc;
 }
 
 /* main (about.html, portfolio.html, contact.html) */
