@@ -6,12 +6,6 @@ body {
   background: linear-gradient(to left, #2c3e50, #999999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* Logo (index.html) */
-#logo {
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
 /* Side Navbar (global) */
 .sidenav {
   height: 100%;
@@ -24,12 +18,6 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-}
-
-/* Main Image (index.html)*/
-.main-image {
-  width: 100%;
-  height: 100%;
 }
 
 /* Side Navbar (global) */
@@ -78,39 +66,6 @@ footer {
   border-top: 3px solid #ccc;
 }
 
-/* main (about.html, portfolio.html, contact.html) */
-#main-container {
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-/* Main Section (about.html, portfolio.html, contact.html) */
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-/* Picture (about.html) */
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-/* Paragraph (about.html) */
-.wrapper{
-  text-align: justify;
-  text-justify: inter-word;
-}
 
 /* contact form (contact.html) */
 #contact-form ul {
