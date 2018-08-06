@@ -3,11 +3,12 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2c3e50, #999999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2c3e50, #999999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient( #2c3e50, #999999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 800px !important;
 }
 @media (max-width: 576px) { 
   body {
-    background: orange;
+    background: linear-gradient( #999999, #2c3e50) !important;
   }
 }
 
