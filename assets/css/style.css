@@ -12,6 +12,15 @@ body {
   }
 }
 
+/* About.html paragraph */
+div p {
+  color: #ffffff;
+  font-size: 20px;
+}
+p a {
+  color: #d3d3d3;
+}
+
 /* Side Navbar (global) */
 .sidenav {
   height: 100%;
