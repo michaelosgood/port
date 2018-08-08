@@ -18,7 +18,7 @@ div p {
   font-size: 20px;
 }
 p a {
-  color: #d3d3d3;
+  color: #999999;
 }
 
 /* project titles and technologies font (portfolio.html) */
@@ -83,7 +83,7 @@ div h6{
   color: #d3d3d3;
 }
 
-/* footer (about.html, portfolio.html, contact.html)*/
+/* footer (global)*/
 footer {
   font-size: 25px;
   font-weight: 500px;
