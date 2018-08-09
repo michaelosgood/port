@@ -92,6 +92,9 @@ footer {
   background: linear-gradient(to bottom right, #999, #c8c3c5);
   border-top: 3px solid #ccc;
 }
+a p {
+  color: #d3d3d3;
+}
 
 @media screen and (max-width: 768px) {
   footer {
