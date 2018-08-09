@@ -92,8 +92,12 @@ footer {
   background: linear-gradient(to bottom right, #999, #c8c3c5);
   border-top: 3px solid #ccc;
 }
-a p {
+footer a {
   color: #d3d3d3;
+}
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
