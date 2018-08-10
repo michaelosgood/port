@@ -14,10 +14,14 @@ body {
 
 /* paragraph (about.html) */
 div p {
-  color: #ffffff;
+  color: #f1f1f1;
   font-size: 20px;
 }
 p a {
+  color: #ffffff;
+}
+
+p a:hover {
   color: #999999;
 }
 
