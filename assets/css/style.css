@@ -112,6 +112,19 @@ footer a:hover {
   }
 }
 
+/* Contact infor (contact.html) */
+#contact-section {
+  color: #f1f1f1;
+}
+
+#contact-section a {
+  color: #f1f1f1;
+}
+
+#contact-section a:hover {
+  color: #d3d3d3;
+}
+
 /* contact form (contact.html) */
 #contact-form ul {
   margin-bottom: 20px;
