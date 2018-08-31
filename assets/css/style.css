@@ -93,7 +93,8 @@ footer {
   font-weight: 500px;
   color: #d3d3d3;
   text-align: center;
-  background: linear-gradient(to bottom right, #999, #c8c3c5);
+  background: #40505d;
+  /* background: linear-gradient(to bottom right, #999, #c8c3c5); */
   border-top: 3px solid #ccc;
 }
 footer a {
