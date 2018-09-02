@@ -94,7 +94,6 @@ footer {
   color: #d3d3d3;
   text-align: center;
   background: #40505d;
-  /* background: linear-gradient(to bottom right, #999, #c8c3c5); */
   border-top: 3px solid #ccc;
 }
 footer a {
@@ -162,11 +161,13 @@ textarea {
 
 /* contact form (contact.html) */
 .btn, button {
-  padding: 10px 30px;
   font-size: 18px;
   color: #fff;
   cursor: pointer;
   background: #0093b7;
-  border: 0 none;
   border-radius: 5px;
+}
+
+.btn, button:hover {
+ background: #4ca4b9;
 }
