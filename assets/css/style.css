@@ -114,15 +114,15 @@ footer a:hover {
 
 /* Contact infor (contact.html) */
 #contact-section {
-  color: #f1f1f1;
+  color: #ffffff;
 }
 
 #contact-section a {
-  color: #f1f1f1;
+  color: #d3d3d3 !important;
 }
 
 #contact-section a:hover {
-  color: #d3d3d3;
+  color: #ffffff;
 }
 
 /* contact form (contact.html) */
