@@ -174,7 +174,7 @@ textarea {
 
 @media screen and (max-width: 576px) {
   #contact-section {
-    margin-left: 1px;
-    margin-right: 1px
+    margin-left: 3px;
+    margin-right: 3px
   }
 }
