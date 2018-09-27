@@ -18,7 +18,7 @@ div p {
   font-size: 20px;
 }
 p a {
-  color: #40505d;
+  color: #40505d !important;
 }
 
 p a:hover {
