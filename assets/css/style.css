@@ -143,9 +143,6 @@ div a:hover {
  }
 
 @media (max-width: 576px) { 
-  #contact-section {
-    border-radius: 0 !important;
-  }
   #contact-1 {
     border-radius: 0 !important;
   }
