@@ -107,6 +107,7 @@ footer a {
 }
 footer a:hover {
   color: #ffffff;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
@@ -132,6 +133,7 @@ div a {
 
 div a:hover {
   color: #ffffff !important;
+  font-weight: 700;
 }
 
 /* Contact info (contact.html) */
