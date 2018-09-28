@@ -118,6 +118,10 @@ footer a:hover {
   }
 }
 
+#profile-img:hover {
+  opacity: 1;
+}
+
 /* Portfolio page */
 #port-contact {
   color: #f1f1f1;
