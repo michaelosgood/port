@@ -132,6 +132,30 @@ div a:hover {
 #contact-section {
   color: #f1f1f1;
 }
+#contact-1 {
+ border-radius: 5px;
+}
+#contact-2 {
+  border-radius: 5px;
+ }
+ #contact-3 {
+  border-radius: 5px;
+ }
+
+@media (max-width: 576px) { 
+  #contact-section {
+    border-radius: 0 !important;
+  }
+  #contact-1 {
+    border-radius: 0 !important;
+  }
+  #contact-2 {
+    border-radius: 0 !important;
+   }
+  #contact-3 {
+    border-radius: 0 !important;
+  }
+}
 
 #contact-section a {
   color: #f1f1f1 !important;
